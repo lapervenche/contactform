@@ -33,4 +33,4 @@ Ce formulaire de contact a été intégré à reCAPTCHA v2 avec le challenge Che
 2. Saisissez une étiquette que vous pouvez utiliser pour identifier votre site Web.
 3. Choisissez le type reCAPTCHA "reCAPTCHA v2" et la version "Case à cocher 'Je ne suis pas un robot'".
 4. Sous Domaines, entrez le nom de domaine de votre site Web.
-5. Acceptez les termes reCAPTCHA et cliquez sur Envoyer.
+5. Acceptez les termes reCAPTCHA et cliquez sur Envoyer...
