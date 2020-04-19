@@ -1,36 +1,36 @@
-# Simple Contact Form with PHPMailer
+# Formulaire de contact simple avec PHPMailer
 
-A simple contact form with PHPMailer, reCAPTCHA and Bootstrap.
+Un simple formulaire de contact avec PHPMailer, reCAPTCHA et Bootstrap.
 
-Use this to provide a simple contact form on your own website, and send the messages with SMTP. Or use this as a basis or example to create your own contact form. 
+Utilisez-le pour fournir un simple formulaire de contact sur votre propre site Web et envoyer les messages avec SMTP. Ou utilisez-le comme base ou exemple pour créer votre propre formulaire de contact.
 
-## Getting Started
+## Commencer
 
-1. Download the latest version of the contact form: https://github.com/InfinityFreeHosting/contactform/releases
-2. Extract the archive on your own computer.
-3. Copy the `config.example.php` to `config.php` and edit the required settings.
-4. Upload the extracted files to a subdirectory of your hosting account (e.g. `htdocs/contact/`).
-5. Navigate to http://your-domain.epizy.com/contact/ and try out the form!
+1. Téléchargez la dernière version du formulaire de contact: https://github.com/InfinityFreeHosting/contactform/releases
+2. Extrayez l'archive sur votre propre ordinateur.
+3. Copiez ou renommez le `config.example.php` pour `config.php`et modifier les paramètres requis.
+4. Envoyez les fichiers extraits dans un sous-répertoire de votre compte d'hébergement (par exemple `htdocs/contact/`).
+5. Accédez à http://your-domain.epizy.com/contact/ et essayez le formulaire!
 
-### How to get your SMTP credentials
+### Comment obtenir vos informations d'identification SMTP
 
-To be able to send messages with this contact form, you'll need a working SMTP service. InfinityFree does not provide this with free hosting, but you can use third party SMTP services.
+Pour pouvoir envoyer des messages avec ce formulaire de contact, vous aurez besoin d'un service SMTP fonctionnel. InfinityFree ne fournit pas cela avec un hébergement gratuit, mais vous pouvez utiliser des services SMTP tiers.
 
-A simple, free option to use is Gmail. You can use Gmail to send your messages like so:
+Gmail est une option simple et gratuite à utiliser. Vous pouvez utiliser Gmail pour envoyer vos messages comme suit:
 
-1. Sign up for a free Gmail account. 
-2. Enable Two Factor Authentication on the Google account: https://myaccount.google.com/signinoptions/two-step-verification
-3. Generate an App Specific Password for the account: https://myaccount.google.com/apppasswords
-4. In the configuration file, set the SMTP Hostname `smtp.gmail.com`, enter your full Gmail address in the SMTP Username field and enter the App Specific Password in the SMTP Password field.
+1. Ouvrez un compte Gmail gratuit.
+2. Activez l'authentification à deux facteurs sur le compte Google: https://myaccount.google.com/signinoptions/two-step-verification
+3. Générez un mot de passe spécifique à l'application pour le compte: https://myaccount.google.com/apppasswords
+4. Dans le fichier de configuration, définissez le nom d'hôte SMTP `smtp.gmail.com`, entrez votre adresse Gmail complète dans le champ Nom d'utilisateur SMTP et entrez le mot de passe spécifique à l'application dans le champ Mot de passe SMTP.
 
-### How to get your reCAPTCHA credentials
+### Comment obtenir vos informations d'identification reCAPTCHA
 
-To prevent spammers from being able to abuse your contact form, reCAPTCHA has been integrated by default. reCAPTCHA is a free service from Google which can prevent automated scripts from using your form.
+Pour empêcher les spammeurs de pouvoir abuser de votre formulaire de contact, reCAPTCHA a été intégré par défaut. reCAPTCHA est un service gratuit de Google qui peut empêcher les scripts automatisés d'utiliser votre formulaire.
 
-This contact form has been integrated with reCAPTCHA v2 with the Checkbox challenge. To use this, you will need to setup your site in reCAPTCHA like so:
+Ce formulaire de contact a été intégré à reCAPTCHA v2 avec le challenge Checkbox. Pour l'utiliser, vous devrez configurer votre site dans reCAPTCHA comme ceci:
 
-1. Go to the reCAPTCHA admin console: https://www.google.com/recaptcha/admin/create
-2. Enter a label you can use to identify your website.
-3. Choose the reCAPTCHA type "reCAPTCHA v2" and the version "Checkbox 'I'm not a robot'".
-4. Under Domains, enter the domain name of your website.
-5. Accept the reCAPTCHA terms and click Send.
+1. Accédez à la console d'administration reCAPTCHA: https://www.google.com/recaptcha/admin/create
+2. Saisissez une étiquette que vous pouvez utiliser pour identifier votre site Web.
+3. Choisissez le type reCAPTCHA "reCAPTCHA v2" et la version "Case à cocher 'Je ne suis pas un robot'".
+4. Sous Domaines, entrez le nom de domaine de votre site Web.
+5. Acceptez les termes reCAPTCHA et cliquez sur Envoyer.
